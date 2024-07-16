@@ -1,47 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T15:25:07 EEST" name="Default suite" finished-at="2024-06-10T15:25:13 EEST" duration-ms="6746">
+  <suite started-at="2024-07-16T07:05:43 EEST" name="Suite" finished-at="2024-07-16T07:06:09 EEST" duration-ms="26275">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestngTestRunner@6f53b8a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
+      <group name="purchase">
+        <method signature="StandAloneTest.FirstTest(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.Tests.StandAloneTest@5890e879]" name="FirstTest" class="RahulShettyAcademy.Tests.StandAloneTest"/>
+      </group> <!-- purchase -->
     </groups>
-    <test started-at="2024-06-10T15:25:07 EEST" name="Default test" finished-at="2024-06-10T15:25:13 EEST" duration-ms="6746">
-      <class name="cucumber.TestngTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestngTestRunner@6f53b8a]" started-at="2024-06-10T15:25:07 EEST" name="setUpClass" finished-at="2024-06-10T15:25:07 EEST" duration-ms="657" status="PASS">
+    <test started-at="2024-07-16T07:05:43 EEST" name="error validation test" finished-at="2024-07-16T07:05:43 EEST" duration-ms="13">
+    </test> <!-- error validation test -->
+    <test started-at="2024-07-16T07:05:43 EEST" name="Sumit Order" finished-at="2024-07-16T07:06:09 EEST" duration-ms="26275">
+      <class name="RahulShettyAcademy.Tests.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyAcademy.Tests.StandAloneTest@5890e879]" started-at="2024-07-16T07:05:43 EEST" name="launchApplication" finished-at="2024-07-16T07:05:52 EEST" duration-ms="9591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="FirstTest(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.Tests.StandAloneTest@5890e879]" started-at="2024-07-16T07:05:52 EEST" name="FirstTest" data-provider="getData" finished-at="2024-07-16T07:05:58 EEST" duration-ms="5591" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b31a708]]>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Liverpool@239, email=marwan23@gmail.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestngTestRunner@6f53b8a]" started-at="2024-06-10T15:25:07 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-10T15:25:13 EEST" duration-ms="5966" status="PASS">
+        </test-method> <!-- FirstTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyAcademy.Tests.StandAloneTest@5890e879]" started-at="2024-07-16T07:05:58 EEST" name="tearDown" finished-at="2024-07-16T07:05:58 EEST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyAcademy.Tests.StandAloneTest@5890e879]" started-at="2024-07-16T07:05:58 EEST" name="launchApplication" finished-at="2024-07-16T07:06:04 EEST" duration-ms="5491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="FirstTest(java.util.HashMap)[pri:0, instance:RahulShettyAcademy.Tests.StandAloneTest@5890e879]" started-at="2024-07-16T07:06:04 EEST" name="FirstTest" data-provider="getData" finished-at="2024-07-16T07:06:09 EEST" duration-ms="4808" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Title of your scenario outline"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["errorValidation"]]>
+                <![CDATA[{productname=IPHONE 13 PRO, password=Marwan@239, email=marwan9@gmail.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestngTestRunner@6f53b8a]" started-at="2024-06-10T15:25:13 EEST" name="tearDownClass" finished-at="2024-06-10T15:25:13 EEST" duration-ms="48" status="PASS">
+        </test-method> <!-- FirstTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyAcademy.Tests.StandAloneTest@5890e879]" started-at="2024-07-16T07:06:09 EEST" name="tearDown" finished-at="2024-07-16T07:06:09 EEST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumber.TestngTestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- RahulShettyAcademy.Tests.StandAloneTest -->
+    </test> <!-- Sumit Order -->
+  </suite> <!-- Suite -->
 </testng-results>
