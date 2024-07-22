@@ -21,6 +21,8 @@ import RahulShettyAcademy.TestCopmponets.BaseTest;
 import RahulShettyAcademy.data.Retry;
 
 public class StandAloneTest extends BaseTest {
+	//add comment
+	//now
 
 	  String productName = "ADIDAS ORIGINAL";
       String countrySelect = "Egypt";
@@ -85,6 +87,12 @@ Assert.assertTrue(OrderPage.verifyProductsDisplay(input.get("productname")));
 	//map1.put("productname","IPHONE 13 PRO");
 		   
  //java -jar jenkins.war -httpPort-8080
+
+// <dependency>
+// <groupId>org.apache.maven.plugins</groupId>
+// <artifactId>maven-compiler-plugin</artifactId>
+ //<version>3.13.0</version>
+//</dependency>
 	   }
 	     
 }
