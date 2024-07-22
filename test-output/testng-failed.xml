@@ -4,12 +4,25 @@
   <listeners>
     <listener class-name="RahulShettyAcademy.data.listenrers"/>
   </listeners>
+  <test thread-count="5" name="Sumit Order(failed)">
+    <classes>
+      <class name="RahulShettyAcademy.Tests.StandAloneTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="orderHistoryTest"/>
+          <include name="FirstTest"/>
+        </methods>
+      </class> <!-- RahulShettyAcademy.Tests.StandAloneTest -->
+    </classes>
+  </test> <!-- Sumit Order(failed) -->
   <test thread-count="5" name="error validation test(failed)">
     <classes>
       <class name="RahulShettyAcademy.Tests.errorValidation">
         <methods>
           <include name="launchApplication"/>
           <include name="tearDown"/>
+          <include name="WrongProduct"/>
           <include name="errorMessagetest"/>
         </methods>
       </class> <!-- RahulShettyAcademy.Tests.errorValidation -->
